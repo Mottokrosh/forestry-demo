@@ -1,0 +1,16 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: publish_date
+  label: Publish Date
+  description: When the post goes live
+  config:
+    date_format: YYYY-MM-DD
+    required: true
